@@ -35,13 +35,13 @@ export default class Board extends React.Component {
         "1",
         "Stark, White and Abbott",
         "Cloned Optimal Architecture",
-        "in-progress"
+        "backlog"
       ],
       [
         "2",
         "Wiza LLC",
         "Exclusive Bandwidth-Monitored Implementation",
-        "complete"
+        "backlog"
       ],
       [
         "3",
@@ -49,17 +49,12 @@ export default class Board extends React.Component {
         "Vision-Oriented 4Thgeneration Graphicaluserinterface",
         "backlog"
       ],
-      [
-        "4",
-        "Thompson PLC",
-        "Streamlined Regional Knowledgeuser",
-        "in-progress"
-      ],
+      ["4", "Thompson PLC", "Streamlined Regional Knowledgeuser", "backlog"],
       [
         "5",
         "Walker-Williamson",
         "Team-Oriented 6Thgeneration Matrix",
-        "in-progress"
+        "backlog"
       ],
       ["6", "Boehm and Sons", "Automated Systematic Paradigm", "backlog"],
       [
@@ -87,7 +82,7 @@ export default class Board extends React.Component {
         "13",
         "Fritsch, Cronin and Wolff",
         "Open-Source 3Rdgeneration Website",
-        "complete"
+        "backlog"
       ],
       [
         "14",
@@ -95,17 +90,12 @@ export default class Board extends React.Component {
         "Profit-Focused Incremental Orchestration",
         "backlog"
       ],
-      [
-        "15",
-        "Emmerich-Ankunding",
-        "User-Centric Stable Extranet",
-        "in-progress"
-      ],
+      ["15", "Emmerich-Ankunding", "User-Centric Stable Extranet", "backlog"],
       [
         "16",
         "Willms-Abbott",
         "Progressive Bandwidth-Monitored Access",
-        "in-progress"
+        "backlog"
       ],
       ["17", "Brekke PLC", "Intuitive User-Facing Customerloyalty", "complete"],
       [
