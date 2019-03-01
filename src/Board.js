@@ -27,8 +27,6 @@ export default class Board extends React.Component {
     };
   }
 
-  UNSAFE_componentWillMount;
-
   getClients() {
     return [
       [
