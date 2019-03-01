@@ -1,6 +1,7 @@
-import React from 'react';
-import Card from './Card';
-import './Swimlane.css';
+import * as React from "react";
+import Dragula from "react-dragula";
+import Card from "./Card";
+import "./Swimlane.css";
 
 export default class Swimlane extends React.Component {
   render() {
@@ -14,14 +15,33 @@ export default class Swimlane extends React.Component {
           status={client.status}
         />
       );
-    })
+    });
     return (
-      <div className="Swimlane-column">
+      <div className="Swimlane-column" ref={this.dragulaDecorator}>
         <div className="Swimlane-title">{this.props.name}</div>
-        <div className="Swimlane-dragColumn" ref={this.props.dragulaRef}>
+        <div
+          className="Swimlane-dragColumn"
+          id={`${this.props.divClass}`}
+          ref={this.props.dragulaRef}
+        >
           {cards}
         </div>
-      </div>);
+      </div>
+    );
   }
 
+  dragulaDecorator = componentBackingInstance => {
+    if (componentBackingInstance) {
+      let options = {};
+      Dragula(
+        [].slice.apply(
+          document.querySelectorAll(".Swimlane-dragColumn"),
+          options
+        )
+      ).on("drop", function(el, target) {
+        console.log(target.id);
+        el.className = `${target.id} Card`;
+      });
+    }
+  };
 }
