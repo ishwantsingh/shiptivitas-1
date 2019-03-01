@@ -71,7 +71,7 @@ export default class Board extends React.Component {
         "backlog"
       ],
       ["10", "Romaguera Inc", "Managed Foreground Toolset", "backlog"],
-      ["11", "Reilly-King", "Future-Proofed Interactive Toolset", "complete"],
+      ["11", "Reilly-King", "Future-Proofed Interactive Toolset", "backlog"],
       [
         "12",
         "Emard, Champlin and Runolfsdottir",
@@ -97,7 +97,7 @@ export default class Board extends React.Component {
         "Progressive Bandwidth-Monitored Access",
         "backlog"
       ],
-      ["17", "Brekke PLC", "Intuitive User-Facing Customerloyalty", "complete"],
+      ["17", "Brekke PLC", "Intuitive User-Facing Customerloyalty", "backlog"],
       [
         "18",
         "Bins, Toy and Klocko",
